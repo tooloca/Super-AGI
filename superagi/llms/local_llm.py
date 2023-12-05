@@ -56,7 +56,7 @@ class LocalLLM(BaseLlm):
 
         except Exception as exception:
             logger.info("Exception:", exception)
-            return {"error": "ERROR", "message": "Error: "+str(exception)}
+            return {"error": "ERROR", "message": f"Error: {str(exception)}"}
 
     def get_source(self):
         """

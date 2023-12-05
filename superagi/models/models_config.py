@@ -77,15 +77,22 @@ class ModelsConfig(DBBaseModel):
 
     @classmethod
     def store_api_key(cls, session, organisation_id, model_provider, model_api_key):
-        existing_entry = session.query(ModelsConfig).filter(and_(ModelsConfig.org_id == organisation_id,
-                                                                 ModelsConfig.provider == model_provider)).first()
-        if existing_entry:
+        if (
+            existing_entry := session.query(ModelsConfig)
+            .filter(
+                and_(
+                    ModelsConfig.org_id == organisation_id,
+                    ModelsConfig.provider == model_provider,
+                )
+            )
+            .first()
+        ):
             existing_entry.api_key = encrypt_data(model_api_key)
             session.commit()
             session.flush()
             if model_provider == 'OpenAI':
                 cls.storeGptModels(session, organisation_id, existing_entry.id, model_api_key)
-            result = {'message': 'The API key was successfully updated'}
+            return {'message': 'The API key was successfully updated'}
         else:
             new_entry = ModelsConfig(org_id=organisation_id, provider=model_provider,
                                      api_key=encrypt_data(model_api_key))
@@ -94,9 +101,10 @@ class ModelsConfig(DBBaseModel):
             session.flush()
             if model_provider == 'OpenAI':
                 cls.storeGptModels(session, organisation_id, new_entry.id, model_api_key)
-            result = {'message': 'The API key was successfully stored', 'model_provider_id': new_entry.id}
-
-        return result
+            return {
+                'message': 'The API key was successfully stored',
+                'model_provider_id': new_entry.id,
+            }
 
     @classmethod
     def storeGptModels(cls, session, organisation_id, model_provider_id, model_api_key):
@@ -117,10 +125,10 @@ class ModelsConfig(DBBaseModel):
             logging.error("No API key found for the provided model provider")
             return []
 
-        api_keys = [{"provider": provider, "api_key": decrypt_data(api_key)} for provider, api_key in
-                    api_key_info]
-
-        return api_keys
+        return [
+            {"provider": provider, "api_key": decrypt_data(api_key)}
+            for provider, api_key in api_key_info
+        ]
 
     @classmethod
     def fetch_api_key(cls, session, organisation_id, model_provider):
