@@ -1,0 +1,2291 @@
+repo_name: tooloca/Super-AGI
+report_id: 5896cf1fc914eb551639f2cdcc972562
+version: 0.1
+repo_type: Public
+timestamp: '2024-06-05T07:37:30+00:00'
+requested_by: Fluder-Paradyne
+provider: github
+branch: main
+detected_tools_count: 153
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/tooloca/Super-AGI
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/tooloca/Super-AGI
+  detection_source: Repo Metadata
+- name: Jinja
+  description: Full featured template engine for Python
+  website_url: https://palletsprojects.com/p/jinja/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Templating Languages & Extensions
+  image_url: https://img.stackshare.io/service/2303/New_Project__20_.png
+  detection_source_url: https://github.com/tooloca/Super-AGI/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Lucifer Linx
+  last_updated_on: 2023-05-27 13:15:41.000000000 Z
+- name: Mako
+  description: Template library written in Python
+  website_url: https://github.com/zzzeek/mako
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Templating Languages & Extensions
+  image_url: https://img.stackshare.io/service/3583/default_43e3ee00dcc48a40f6fcba33551e4f5a99a10537.png
+  detection_source_url: https://github.com/tooloca/Super-AGI
+  detection_source: Repo Metadata
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/tooloca/Super-AGI
+  detection_source: Repo Metadata
+- name: Bootstrap
+  description: Simple and flexible HTML, CSS, and JS for popular UI components and
+    interactions
+  website_url: http://getbootstrap.com/
+  version: 5.2.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Front-End Frameworks
+  image_url: https://img.stackshare.io/service/1101/C9QJ7V3X.png
+  detection_source_url: https://github.com/tooloca/Super-AGI/blob/main/gui/package-lock.json
+  detection_source: gui/package.json
+  last_updated_by: Nishant Borthakur
+  last_updated_on: 2023-05-27 13:14:02.000000000 Z
+- name: ECharts
+  description: A free, powerful charting and visualization library
+  website_url: https://echarts.apache.org/en/index.html
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Charting Libraries
+  image_url: https://img.stackshare.io/service/4230/aSzYQa43_400x400.jpg
+  detection_source_url: https://github.com/tooloca/Super-AGI/blob/main/gui/package.json
+  detection_source: gui/package.json
+  last_updated_by: Kalki
+  last_updated_on: 2023-07-13 13:46:46.000000000 Z
+- name: FastAPI
+  description: A high performance, easy to learn, fast to code, ready for production
+    web framework
+  website_url: https://fastapi.tiangolo.com/
+  version: 0.95.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Microframeworks (Backend)
+  image_url: https://img.stackshare.io/service/25014/default_f6ff39141b468e832d1bc59fc98a060df604d44d.png
+  detection_source_url: https://github.com/tooloca/Super-AGI/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: TransformerOptimus
+  last_updated_on: 2023-05-19 08:12:24.000000000 Z
+- name: Next.js
+  description: A small framework for server-rendered universal JavaScript apps
+  website_url: https://nextjs.org/
+  version: 13.4.2
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/5936/nextjs.png
+  detection_source_url: https://github.com/tooloca/Super-AGI/blob/main/gui/package-lock.json
+  detection_source: gui/package.json
+  last_updated_by: Nishant Borthakur
+  last_updated_on: 2023-05-27 13:14:02.000000000 Z
+- name: Node.js
+  description: A platform built on Chrome's JavaScript runtime for easily building
+    fast, scalable network applications
+  website_url: http://nodejs.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source_url: https://github.com/tooloca/Super-AGI/blob/main/docker-compose.yaml
+  detection_source: docker-compose.yaml
+  last_updated_by: TransformerOptimus
+  last_updated_on: 2023-05-28 18:09:18.000000000 Z
+- name: React
+  description: A JavaScript library for building user interfaces
+  website_url: https://reactjs.org/
+  version: 18.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
+  detection_source_url: https://github.com/tooloca/Super-AGI/blob/main/gui/package-lock.json
+  detection_source: gui/package.json
+  last_updated_by: Fluder-Paradyne
+  last_updated_on: 2023-09-27 13:06:19.000000000 Z
+- name: Celery
+  description: Distributed task queue
+  website_url: http://www.celeryproject.org/
+  version: 5.2.7
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Message Queue
+  image_url: https://img.stackshare.io/service/1075/celery.png
+  detection_source_url: https://github.com/tooloca/Super-AGI/blob/main/requirements.txt
+  detection_source: docker-compose.yaml
+  last_updated_by: luciferlinx
+  last_updated_on: 2023-07-27 14:38:50.000000000 Z
+- name: Confluent
+  description: A stream data platform to help companies harness their high volume
+    real-time data streams
+  website_url: https://www.confluent.io/
+  open_source: false
+  hosted_saas: true
+  category: Data Stores
+  sub_category: Message Queue
+  image_url: https://img.stackshare.io/service/5862/default_89c3b9968d36020bf2eaaf162d706866b6da195f.jpg
+  detection_source_url: https://github.com/tooloca/Super-AGI/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: TransformerOptimus
+  last_updated_on: 2023-05-18 13:54:37.000000000 Z
+- name: PostgreSQL
+  description: A powerful, open source object-relational database system
+  website_url: http://www.postgresql.org/
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1028/ASOhU5xJ.png
+  detection_source_url: https://github.com/tooloca/Super-AGI/blob/main/docker-compose.yaml
+  detection_source: docker-compose.yaml
+  last_updated_by: Rounak Bhatia
+  last_updated_on: 2023-11-03 07:17:40.000000000 Z
+- name: Redis
+  description: Open source (BSD licensed), in-memory data structure store
+  website_url: http://redis.io/
+  version: 4.5.5
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: In-Memory Databases
+  image_url: https://img.stackshare.io/service/1031/default_cbce472cd134adc6688572f999e9122b9657d4ba.png
+  detection_source_url: https://github.com/tooloca/Super-AGI/blob/main/requirements.txt
+  detection_source: docker-compose.yaml
+  last_updated_by: Fluder-Paradyne
+  last_updated_on: 2023-08-03 09:17:30.000000000 Z
+- name: SQLAlchemy
+  description: The Python SQL Toolkit and Object Relational Mapper
+  website_url: http://www.sqlalchemy.org/
+  version: 2.0.16
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Object Relational Mapper (ORM)
+  image_url: https://img.stackshare.io/service/1839/q5uAkmy7.png
+  detection_source_url: https://github.com/tooloca/Super-AGI/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: rakesh-krishna-a-s
+  last_updated_on: 2023-06-22 05:18:35.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/tooloca/Super-AGI
+  detection_source: Repo Metadata
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/tooloca/Super-AGI/blob/main/gui/package.json
+  detection_source: gui/package.json
+  last_updated_by: Nishant Borthakur
+  last_updated_on: 2023-05-27 13:14:02.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/tooloca/Super-AGI
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/tooloca/Super-AGI/blob/main/.github/workflows/ci.yml
+  detection_source: ".github/workflows/ci.yml"
+  last_updated_by: Fluder-Paradyne
+  last_updated_on: 2023-09-27 13:06:19.000000000 Z
+- name: NGINX
+  description: A high performance free open source web server powering busiest sites
+    on the Internet.
+  website_url: http://nginx.org
+  open_source: false
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Web Servers
+  image_url: https://img.stackshare.io/service/1052/YMxUfyWf.png
+  detection_source_url: https://github.com/tooloca/Super-AGI/blob/main/docker-compose.yaml
+  detection_source: docker-compose.yaml
+  last_updated_by: TransformerOptimus
+  last_updated_on: 2023-05-28 18:09:18.000000000 Z
+- name: PyPI
+  description: A repository of software for the Python programming language
+  website_url: https://pypi.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Hosted Package Repository
+  image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/tooloca/Super-AGI/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: TransformerOptimus
+  last_updated_on: 2023-05-18 13:54:37.000000000 Z
+- name: Pylint
+  description: Source-code, bug and quality checker for the Python programming language
+  website_url: https://www.pylint.org/
+  version: 2.17.4
+  license: GPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/4837/py.jpg
+  detection_source_url: https://github.com/tooloca/Super-AGI/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Kalki
+  last_updated_on: 2023-06-21 06:18:11.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/tooloca/Super-AGI/blob/main/gui/package.json
+  detection_source: gui/package.json
+  last_updated_by: Nishant Borthakur
+  last_updated_on: 2023-05-27 13:14:02.000000000 Z
+- name: pytest
+  description: A full-featured Python testing tool to help you write better programs
+  website_url: http://pytest.org/latest/
+  version: 7.3.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/4586/Lu99Qe0Z_400x400.png
+  detection_source_url: https://github.com/tooloca/Super-AGI/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: I’m
+  last_updated_on: 2023-06-21 14:05:33.000000000 Z
+- name: Pillow
+  description: Python Imaging Library
+  website_url: https://python-pillow.github.io/
+  open_source: true
+  hosted_saas: false
+  category: Assets and Media
+  sub_category: Image Processing and Management
+  image_url: https://img.stackshare.io/service/2375/default_1f67b0ca7416a9f52beb655f90b5602d5ef74b75.jpg
+  detection_source_url: https://github.com/tooloca/Super-AGI/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: rakesh-krishna-a-s
+  last_updated_on: 2023-06-30 10:45:12.000000000 Z
+- name: Replicate
+  description: Run machine learning models with a few lines of code
+  website_url: https://replicate.com/
+  version: 0.8.4
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Machine Learning as a Service
+  image_url: https://img.stackshare.io/service/21709/default_e8df7b9f7533c3ea041cf8ded59b2c12e7466b67.jpg
+  detection_source_url: https://github.com/tooloca/Super-AGI/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Fluder-Paradyne
+  last_updated_on: 2023-08-29 13:50:19.000000000 Z
+- name: Alpine Linux
+  description: Security-oriented, lightweight Linux distribution based on musl libc
+    and busybox
+  website_url: https://www.alpinelinux.org/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Operating Systems
+  image_url: https://img.stackshare.io/service/6429/alpine_linux.png
+  detection_source_url: https://github.com/tooloca/Super-AGI/blob/main/docker-compose.yaml
+  detection_source: docker-compose.yaml
+  last_updated_by: Palmer Duckworth
+  last_updated_on: 2023-06-14 00:35:02.000000000 Z
+- name: LLaMA
+  description: A foundational, 65-billion-parameter large language model (By Facebook)
+  website_url: https://ai.meta.com/blog/large-language-model-llama-meta-ai/
+  open_source: true
+  hosted_saas: false
+  category: Communications
+  sub_category: Large Language Models
+  image_url: https://img.stackshare.io/service/101870/default_110df704ee9867cb49e02a51b680222cc0b61823.png
+  detection_source_url: https://github.com/tooloca/Super-AGI/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: TransformerOptimus
+  last_updated_on: 2023-05-18 13:54:37.000000000 Z
+- name: Moment.js
+  description: A JavaScript date library for parsing, validating, manipulating, and
+    formatting dates
+  website_url: http://momentjs.com/
+  version: 2.29.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/3643/Xrtdc94q_400x400.png
+  detection_source_url: https://github.com/tooloca/Super-AGI/blob/main/gui/package-lock.json
+  detection_source: gui/package.json
+  last_updated_by: NishantBorthakur
+  last_updated_on: 2023-06-30 13:14:00.000000000 Z
+- name: NumPy
+  description: Fundamental package for scientific computing with Python
+  website_url: http://www.numpy.org/
+  version: 1.24.3
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Data Science Tools
+  image_url: https://img.stackshare.io/service/2179/default_332f874a2edb2686f578aa6389313efcea1eec41.png
+  detection_source_url: https://github.com/tooloca/Super-AGI/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: TransformerOptimus
+  last_updated_on: 2023-05-18 13:54:37.000000000 Z
+- name: OpenAI
+  description: Creating safe AGI that benefits all
+  website_url: https://openai.com/
+  version: 0.27.7
+  open_source: false
+  hosted_saas: false
+  category: Communications
+  sub_category: Large Language Models
+  image_url: https://img.stackshare.io/service/48786/default_8b1119bcbb159cebebc2f6cfc9cd2e359b169d22.jpg
+  detection_source_url: https://github.com/tooloca/Super-AGI/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: TransformerOptimus
+  last_updated_on: 2023-05-18 13:54:37.000000000 Z
+- name: Pinecone
+  description: Build high-performance vector search applications
+  website_url: https://www.pinecone.io/
+  version: 2.2.1
+  open_source: false
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Search as a Service
+  image_url: https://img.stackshare.io/service/48784/default_376332a8eee1cdbb0546ca1aaed0b8a7f4d673d7.png
+  detection_source_url: https://github.com/tooloca/Super-AGI/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: TransformerOptimus
+  last_updated_on: 2023-05-18 13:54:37.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/tooloca/Super-AGI
+  detection_source: Repo Metadata
+- name: Websockets
+  description: A technology that makes it possible to open a two-way interactive communication
+  website_url: https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API
+  version: '10.4'
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/4220/LNPwoiWi_400x400.jpg
+  detection_source_url: https://github.com/tooloca/Super-AGI/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: TransformerOptimus
+  last_updated_on: 2023-05-19 08:12:24.000000000 Z
+- name: axios
+  description: Promise based HTTP client for the browser and node.js
+  website_url: https://github.com/mzabriskie/axios
+  version: 1.4.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/tooloca/Super-AGI/blob/main/gui/package-lock.json
+  detection_source: gui/package.json
+  last_updated_by: Nishant Borthakur
+  last_updated_on: 2023-05-27 13:14:02.000000000 Z
+- name: date-fns
+  description: Modern JavaScript date utility library
+  website_url: https://date-fns.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/10865/default_5551fb8853689f607a2bc0d5a09355d5a3d52bf0.png
+  detection_source_url: https://github.com/tooloca/Super-AGI/blob/main/gui/package.json
+  detection_source: gui/package.json
+  last_updated_by: Kalki
+  last_updated_on: 2023-07-14 07:40:30.000000000 Z
+- name: aiohttp
+  description: Async http client/server framework
+  package_url: https://pypi.org/project/aiohttp
+  version: 3.8.4
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19852/default_d748224707283d9d8a73c2323730c87bda6b313a.png
+  detection_source_url: https://github.com/tooloca/Super-AGI/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: luciferlinx
+  last_updated_on: 2023-06-23 10:06:53.000000000 Z
+  vulnerabilities:
+  - name: aiohttp's ClientSession is vulnerable to CRLF injection via version
+    cve_id: CVE-2023-49081
+    cve_url: https://github.com/advisories/GHSA-q3qx-c6g2-7pw2
+    detected_date: Nov 28
+    severity: high
+    first_patched: 3.9.0
+  - name: aiohttp vulnerable to Denial of Service when trying to parse malformed POST
+      requests
+    cve_id: CVE-2024-30251
+    cve_url: https://github.com/advisories/GHSA-5m98-qgg9-wh84
+    detected_date: May 4
+    severity: high
+    first_patched: 3.9.4
+  - name: aiohttp's HTTP parser (the python one, not llhttp) still overly lenient
+      about separators
+    cve_id: CVE-2024-23829
+    cve_url: https://github.com/advisories/GHSA-8qpw-xqxj-h4r2
+    detected_date: Jan 30
+    severity: moderate
+    first_patched: 3.9.2
+  - name: aiohttp is vulnerable to directory traversal
+    cve_id: CVE-2024-23334
+    cve_url: https://github.com/advisories/GHSA-5h86-8mv2-jq9f
+    detected_date: Jan 30
+    severity: moderate
+    first_patched: 3.9.2
+  - name: AIOHTTP has problems in HTTP parser (the python one, not llhttp)
+    cve_id: CVE-2023-47627
+    cve_url: https://github.com/advisories/GHSA-gfw2-4jvh-wgfg
+    detected_date: Nov 15
+    severity: moderate
+    first_patched: 3.8.6
+  - name: aiohttp has vulnerable dependency that is vulnerable to request smuggling
+    cve_id:
+    cve_url: https://github.com/advisories/GHSA-pjjw-qhg8-p2p9
+    detected_date: Nov 29
+    severity: moderate
+    first_patched: 3.8.6
+  - name: aiohttp's ClientSession is vulnerable to CRLF injection via method
+    cve_id: CVE-2023-49082
+    cve_url: https://github.com/advisories/GHSA-qvrw-v9rv-5rjx
+    detected_date: Nov 28
+    severity: moderate
+    first_patched: 3.9.0
+  - name: aiohttp Cross-site Scripting vulnerability on index pages for static file
+      handling
+    cve_id: CVE-2024-27306
+    cve_url: https://github.com/advisories/GHSA-7gpw-8wmc-pm8g
+    detected_date: Apr 19
+    severity: moderate
+    first_patched: 3.9.4
+  - name: aiohttp.web.Application vulnerable to HTTP request smuggling via llhttp
+      HTTP request parser
+    cve_id: CVE-2023-37276
+    cve_url: https://github.com/advisories/GHSA-45c4-8wx5-qw6w
+    detected_date: Jul 21
+    severity: moderate
+    first_patched: 3.8.5
+- name: certifi
+  description: Python package for providing Mozilla's CA Bundle
+  package_url: https://pypi.org/project/certifi
+  version: 2023.5.7
+  license: MPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19849/default_75c38a39b9f0062814489e2ec2cbfca0ca15d9ba.png
+  detection_source_url: https://github.com/tooloca/Super-AGI/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: TransformerOptimus
+  last_updated_on: 2023-05-18 13:54:37.000000000 Z
+  vulnerabilities:
+  - name: Removal of e-Tugra root certificate
+    cve_id: CVE-2023-37920
+    cve_url: https://github.com/advisories/GHSA-xqr8-7jwr-rhp7
+    detected_date: Jul 26
+    severity: high
+    first_patched: 2023.7.22
+- name: cryptography
+  description: Cryptography is a package which provides cryptographic recipes and
+    primitives to Python developers
+  package_url: https://pypi.org/project/cryptography
+  version: 41.0.1
+  license: BSD-3-Clause,Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19850/default_db2ab2702f70e20c272f6ce65251108fb2b8f1ea.png
+  detection_source_url: https://github.com/tooloca/Super-AGI/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: abhijeet
+  last_updated_on: 2023-06-07 03:51:55.000000000 Z
+  vulnerabilities:
+  - name: cryptography NULL pointer dereference with pkcs12.serialize_key_and_certificates
+      when called with a non-matching certificate and private key and an hmac_hash
+      override
+    cve_id: CVE-2024-26130
+    cve_url: https://github.com/advisories/GHSA-6vqw-3v5j-54x4
+    detected_date: Feb 22
+    severity: high
+    first_patched: 42.0.4
+  - name: cryptography mishandles SSH certificates
+    cve_id: CVE-2023-38325
+    cve_url: https://github.com/advisories/GHSA-cf7p-gm2m-833m
+    detected_date: Jul 15
+    severity: high
+    first_patched: 41.0.2
+  - name: Python Cryptography package vulnerable to Bleichenbacher timing oracle attack
+    cve_id: CVE-2023-50782
+    cve_url: https://github.com/advisories/GHSA-3ww4-gg4f-jr7f
+    detected_date: Feb 6
+    severity: high
+    first_patched: 42.0.0
+  - name: cryptography vulnerable to NULL-dereference when loading PKCS7 certificates
+    cve_id: CVE-2023-49083
+    cve_url: https://github.com/advisories/GHSA-jfhm-5ghh-2f97
+    detected_date: Nov 29
+    severity: moderate
+    first_patched: 41.0.6
+  - name: Null pointer dereference in PKCS12 parsing
+    cve_id: CVE-2024-0727
+    cve_url: https://github.com/advisories/GHSA-9v9h-cgj8-h64p
+    detected_date: Feb 17
+    severity: moderate
+    first_patched: 42.0.2
+  - name: Vulnerable OpenSSL included in cryptography wheels
+    cve_id:
+    cve_url: https://github.com/advisories/GHSA-v8gr-m533-ghj9
+    detected_date: Sep 22
+    severity: low
+    first_patched: 41.0.4
+  - name: pyca/cryptography's wheels include vulnerable OpenSSL
+    cve_id:
+    cve_url: https://github.com/advisories/GHSA-jm77-qphf-c4w8
+    detected_date: Aug 2
+    severity: low
+    first_patched: 41.0.3
+- name: starlette
+  description: The little ASGI library that shines
+  package_url: https://pypi.org/project/starlette
+  version: 0.27.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20295/default_640b00772a7025571fa2ac02de971e76f9662aa9.png
+  detection_source_url: https://github.com/tooloca/Super-AGI/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: TransformerOptimus
+  last_updated_on: 2023-05-28 09:46:21.000000000 Z
+  vulnerabilities:
+  - name: python-multipart vulnerable to Content-Type Header ReDoS
+    cve_id: CVE-2024-24762
+    cve_url: https://github.com/advisories/GHSA-2jv5-9r88-3w3p
+    detected_date: Feb 17
+    severity: high
+    first_patched: 0.36.2
+  - name: 'Duplicate Advisory: Starlette Content-Type Header ReDoS'
+    cve_id:
+    cve_url: https://github.com/advisories/GHSA-93gm-qmq6-w238
+    detected_date: Feb 6
+    severity: high
+    first_patched: 0.36.2
+- name: PyPDF2
+  description: PDF toolkit
+  package_url: https://pypi.org/project/PyPDF2
+  version: 3.0.1
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20065/default_bb49fb0188726b8922387d8bb6e9b2cd0c3c0ea9.png
+  detection_source_url: https://github.com/tooloca/Super-AGI/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: TransformerOptimus
+  last_updated_on: 2023-05-18 13:54:37.000000000 Z
+  vulnerabilities:
+  - name: pypdf and PyPDF2 possible Infinite Loop when a comment isn't followed by
+      a character
+    cve_id: CVE-2023-36464
+    cve_url: https://github.com/advisories/GHSA-4vvm-4w3v-6mr8
+    detected_date: Jul 1
+    severity: moderate
+    first_patched:
+- name: dnspython
+  description: DNS toolkit
+  package_url: https://pypi.org/project/dnspython
+  version: 2.3.0
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20249/default_47b8ee8db82e43d9eef35923435bd8cc855f3a1b.png
+  detection_source_url: https://github.com/tooloca/Super-AGI/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Rounak Bhatia
+  last_updated_on: 2023-10-25 07:33:38.000000000 Z
+  vulnerabilities:
+  - name: Potential DoS via the Tudoor mechanism in eventlet and dnspython
+    cve_id: CVE-2023-29483
+    cve_url: https://github.com/advisories/GHSA-3rq5-2g8h-59hc
+    detected_date: Apr 13
+    severity: moderate
+    first_patched: 2.6.1
+- name: idna
+  description: Internationalized Domain Names in Applications
+  package_url: https://pypi.org/project/idna
+  version: '3.4'
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19863/default_f24e00e4cb7620e436f9d06e0305070e1335922a.png
+  detection_source_url: https://github.com/tooloca/Super-AGI/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: TransformerOptimus
+  last_updated_on: 2023-05-18 13:54:37.000000000 Z
+  vulnerabilities:
+  - name: Internationalized Domain Names in Applications (IDNA) vulnerable to denial
+      of service from specially crafted inputs to idna.encode
+    cve_id: CVE-2024-3651
+    cve_url: https://github.com/advisories/GHSA-jjg7-2v4v-x38h
+    detected_date: Apr 12
+    severity: moderate
+    first_patched: '3.7'
+- name: pydantic
+  description: Data validation and settings management using python 3.6 type hinting
+  package_url: https://pypi.org/project/pydantic
+  version: 1.10.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20022/default_b0d1a54f127d7017fce41c15f5e85568fb7019ed.png
+  detection_source_url: https://github.com/tooloca/Super-AGI/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: TransformerOptimus
+  last_updated_on: 2023-05-28 09:46:21.000000000 Z
+  vulnerabilities:
+  - name: Pydantic regular expression denial of service
+    cve_id: CVE-2024-3772
+    cve_url: https://github.com/advisories/GHSA-mr82-8j83-vxmv
+    detected_date: Apr 25
+    severity: moderate
+    first_patched: 1.10.13
+- name: requests
+  description: Python HTTP for Humans
+  package_url: https://pypi.org/project/requests
+  version: 2.31.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19826/default_d7c684bf2673f008a9f02ac93901229297a22d7e.png
+  detection_source_url: https://github.com/tooloca/Super-AGI/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: TransformerOptimus
+  last_updated_on: 2023-05-28 09:46:21.000000000 Z
+  vulnerabilities:
+  - name: Requests `Session` object does not verify requests after making first request
+      with verify=False
+    cve_id: CVE-2024-35195
+    cve_url: https://github.com/advisories/GHSA-9wx4-h78v-vm56
+    detected_date: May 21
+    severity: moderate
+    first_patched: 2.32.0
+- name: urllib3
+  description: HTTP library with thread-safe connection pooling
+  package_url: https://pypi.org/project/urllib3
+  version: 1.26.16
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19842/default_4604ff5dcb7f4d9c7b3833591c2142493951b19c.png
+  detection_source_url: https://github.com/tooloca/Super-AGI/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: TransformerOptimus
+  last_updated_on: 2023-05-28 09:46:21.000000000 Z
+  vulnerabilities:
+  - name: urllib3's request body not stripped after redirect from 303 status changes
+      request method to GET
+    cve_id: CVE-2023-45803
+    cve_url: https://github.com/advisories/GHSA-g4mx-q9vg-27p4
+    detected_date: Oct 18
+    severity: moderate
+    first_patched: 1.26.18
+  - name: "`Cookie` HTTP header isn't stripped on cross-origin redirects"
+    cve_id: CVE-2023-43804
+    cve_url: https://github.com/advisories/GHSA-v845-jxx5-vc9f
+    detected_date: Oct 3
+    severity: moderate
+    first_patched: 1.26.17
+- name: tqdm
+  description: Fast, Extensible Progress Meter
+  package_url: https://pypi.org/project/tqdm
+  version: 4.65.0
+  license: MPL-2.0,MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19846/default_accee5d2b8ed75c2245f13504daf75b1cbc8cc9f.png
+  detection_source_url: https://github.com/tooloca/Super-AGI/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: TransformerOptimus
+  last_updated_on: 2023-05-18 13:54:37.000000000 Z
+  vulnerabilities:
+  - name: tqdm CLI arguments injection attack
+    cve_id: CVE-2024-34062
+    cve_url: https://github.com/advisories/GHSA-g7vv-2v7x-gj9p
+    detected_date: May 4
+    severity: low
+    first_patched: 4.66.3
+- name: MarkupSafe
+  description: Safely add untrusted strings to HTML/XML markup
+  package_url: https://pypi.org/project/MarkupSafe
+  version: 2.1.2
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19945/default_0b0a94e1bdf3e64deeccb23892ca2335bdc30e4f.png
+  detection_source_url: https://github.com/tooloca/Super-AGI/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: TransformerOptimus
+  last_updated_on: 2023-05-28 09:46:21.000000000 Z
+- name: PyJWT
+  description: JSON Web Token implementation in Python
+  package_url: https://pypi.org/project/PyJWT
+  version: 1.7.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19883/default_3863c7bb51d307217c188e059f67ca417c51efe3.png
+  detection_source_url: https://github.com/tooloca/Super-AGI/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: TransformerOptimus
+  last_updated_on: 2023-05-19 08:12:24.000000000 Z
+- name: PyYAML
+  description: YAML parser and emitter for Python
+  package_url: https://pypi.org/project/PyYAML
+  version: '6.0'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19829/default_74a61b43bdb9fc0cba2978316b9976f43545029b.png
+  detection_source_url: https://github.com/tooloca/Super-AGI/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: TransformerOptimus
+  last_updated_on: 2023-05-18 13:54:37.000000000 Z
+- name: alembic
+  description: A database migration tool for SQLAlchemy
+  package_url: https://pypi.org/project/alembic
+  version: 1.11.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19961/default_61e35171bd9c0e5c5b88b2e4221ca242576ad8c0.png
+  detection_source_url: https://github.com/tooloca/Super-AGI/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Lucifer Linx
+  last_updated_on: 2023-05-27 13:15:41.000000000 Z
+- name: amqp
+  description: Low-level AMQP client for Python
+  package_url: https://pypi.org/project/amqp
+  version: 5.1.1
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20296/default_fbb28b4e332d257da7e7f1277d3ce073b5270511.png
+  detection_source_url: https://github.com/tooloca/Super-AGI/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Lucifer Linx
+  last_updated_on: 2023-05-27 13:15:41.000000000 Z
+- name: anyio
+  description: High level compatibility layer for multiple asynchronous event loop
+    implementations
+  package_url: https://pypi.org/project/anyio
+  version: 3.7.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20757/default_c1e4fc9b7faffe723aa1e18d3dd3049b39849e4d.png
+  detection_source_url: https://github.com/tooloca/Super-AGI/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: TransformerOptimus
+  last_updated_on: 2023-05-28 09:46:21.000000000 Z
+- name: apiclient
+  description: Framework for making good API client libraries using urllib3
+  package_url: https://pypi.org/project/apiclient
+  version: 1.0.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/tooloca/Super-AGI/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: rakesh-krishna-a-s
+  last_updated_on: 2023-06-29 08:42:07.000000000 Z
+- name: appdirs
+  description: A small Python module for determining appropriate platform-specific
+    dirs, e.g
+  package_url: https://pypi.org/project/appdirs
+  version: 1.4.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19878/default_2270bfab784e3d2c2d999d26b11ee478a9dad238.png
+  detection_source_url: https://github.com/tooloca/Super-AGI/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: TransformerOptimus
+  last_updated_on: 2023-05-18 13:54:37.000000000 Z
+- name: async-timeout
+  description: Timeout context manager for asyncio programs
+  package_url: https://pypi.org/project/async-timeout
+  version: 4.0.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20820/default_33e8d7fbba8bfff26ed0101b65f3a3af5fd63b4e.png
+  detection_source_url: https://github.com/tooloca/Super-AGI/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: TransformerOptimus
+  last_updated_on: 2023-05-18 13:54:37.000000000 Z
+- name: attrs
+  description: Classes Without Boilerplate
+  package_url: https://pypi.org/project/attrs
+  version: 23.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19857/default_4a8a8fdc10130068bf295812b98e9b72fb42fe70.png
+  detection_source_url: https://github.com/tooloca/Super-AGI/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: TransformerOptimus
+  last_updated_on: 2023-05-18 13:54:37.000000000 Z
+- name: beautifulsoup4
+  description: Screen-scraping library
+  package_url: https://pypi.org/project/beautifulsoup4
+  version: 4.12.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19838/default_85689b353a3a9409328e253ea28d859d29151e0c.png
+  detection_source_url: https://github.com/tooloca/Super-AGI/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: TransformerOptimus
+  last_updated_on: 2023-05-18 13:54:37.000000000 Z
+- name: billiard
+  description: Python multiprocessing fork with improvements and bugfixes
+  package_url: https://pypi.org/project/billiard
+  version: 3.6.4
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20470/default_54107e01f42ee7fb9e6c385c975ec134753aae0a.png
+  detection_source_url: https://github.com/tooloca/Super-AGI/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Lucifer Linx
+  last_updated_on: 2023-05-27 13:15:41.000000000 Z
+- name: boto3
+  description: The AWS SDK for Python
+  package_url: https://pypi.org/project/boto3
+  version: 1.26.146
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19840/default_1c41e593803157c668b26f27387160254f0f5371.png
+  detection_source_url: https://github.com/tooloca/Super-AGI/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: abhijeet
+  last_updated_on: 2023-06-05 20:58:27.000000000 Z
+- name: botocore
+  description: Low-level, data-driven core of boto 3
+  package_url: https://pypi.org/project/botocore
+  version: 1.29.146
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19884/default_b8be3f20d4af87021ae3618d5c50b72c985ea31f.png
+  detection_source_url: https://github.com/tooloca/Super-AGI/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: luciferlinx
+  last_updated_on: 2023-06-23 10:06:53.000000000 Z
+- name: bs4
+  description: Dummy package for Beautiful Soup
+  package_url: https://pypi.org/project/bs4
+  version: 0.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19906/default_2aeed05332f0410b54817405c7e8e202a7e763cf.png
+  detection_source_url: https://github.com/tooloca/Super-AGI/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: TransformerOptimus
+  last_updated_on: 2023-05-18 13:54:37.000000000 Z
+- name: cffi
+  description: Foreign Function Interface for Python calling C code
+  package_url: https://pypi.org/project/cffi
+  version: 1.15.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19909/default_67f813d4aac73d024261bcfded6ef2b918e384a0.png
+  detection_source_url: https://github.com/tooloca/Super-AGI/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: abhijeet
+  last_updated_on: 2023-06-07 03:51:55.000000000 Z
+- name: charset-normalizer
+  description: The Real First Universal Charset Detector
+  package_url: https://pypi.org/project/charset-normalizer
+  version: 3.1.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/tooloca/Super-AGI/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: abhijeet
+  last_updated_on: 2023-06-07 03:51:55.000000000 Z
+- name: chromadb
+  description: Chroma
+  package_url: https://pypi.org/project/chromadb
+  version: 0.3.26
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/tooloca/Super-AGI/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: rakesh-krishna-a-s
+  last_updated_on: 2023-06-29 06:05:55.000000000 Z
+- name: click
+  description: Composable command line interface toolkit
+  package_url: https://pypi.org/project/click
+  version: 8.1.3
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19830/default_74a61b43bdb9fc0cba2978316b9976f43545029b.png
+  detection_source_url: https://github.com/tooloca/Super-AGI/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Lucifer Linx
+  last_updated_on: 2023-05-27 13:15:41.000000000 Z
+- name: click-plugins
+  description: An extension module for click to enable registering CLI commands via
+    setuptools entry-points
+  package_url: https://pypi.org/project/click-plugins
+  version: 1.1.1
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20361/default_a54cbb457d7aac7ab53484c3473848dbdd84d806.png
+  detection_source_url: https://github.com/tooloca/Super-AGI/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Lucifer Linx
+  last_updated_on: 2023-05-27 13:15:41.000000000 Z
+- name: colorama
+  description: Cross-platform colored terminal text
+  package_url: https://pypi.org/project/colorama
+  version: 0.4.6
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19845/default_accee5d2b8ed75c2245f13504daf75b1cbc8cc9f.png
+  detection_source_url: https://github.com/tooloca/Super-AGI/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Lucifer Linx
+  last_updated_on: 2023-05-27 13:15:41.000000000 Z
+- name: confluent-kafka
+  description: Confluent's Python client for Apache Kafka
+  package_url: https://pypi.org/project/confluent-kafka
+  version: 2.1.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20152/default_ab08d6ce07ad95669525117e30f51032a6131527.png
+  detection_source_url: https://github.com/tooloca/Super-AGI/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: TransformerOptimus
+  last_updated_on: 2023-05-18 13:54:37.000000000 Z
+- name: cssselect
+  description: Cssselect parses CSS3 Selectors and translates them to XPath 1.0
+  package_url: https://pypi.org/project/cssselect
+  version: 1.2.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20109/default_534fc53c55ef7fbc50263daa8ea6618be3c2b37d.png
+  detection_source_url: https://github.com/tooloca/Super-AGI/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: TransformerOptimus
+  last_updated_on: 2023-05-18 13:54:37.000000000 Z
+- name: dataclasses-json
+  description: Easily serialize dataclasses to and from JSON
+  package_url: https://pypi.org/project/dataclasses-json
+  version: 0.5.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20519/default_ded6d17aa418fbd05ff28b85345c77ab878c6b37.png
+  detection_source_url: https://github.com/tooloca/Super-AGI/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: abhijeet
+  last_updated_on: 2023-06-05 20:58:27.000000000 Z
+- name: defusedxml
+  description: XML bomb protection for Python stdlib modules
+  package_url: https://pypi.org/project/defusedxml
+  version: 0.7.1
+  license: Python-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20210/default_6796c4086c025d18cdc673750b208b846d8e0914.png
+  detection_source_url: https://github.com/tooloca/Super-AGI/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: TransformerOptimus
+  last_updated_on: 2023-05-28 09:46:21.000000000 Z
+- name: email-validator
+  description: A robust email syntax and deliverability validation library for Python
+    2.x/3.x
+  package_url: https://pypi.org/project/email-validator
+  license: Unlicense
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/tooloca/Super-AGI/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: TransformerOptimus
+  last_updated_on: 2023-05-28 09:46:21.000000000 Z
+- name: exceptiongroup
+  description: Backport of PEP 654
+  package_url: https://pypi.org/project/exceptiongroup
+  version: 1.1.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/tooloca/Super-AGI/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: abhijeet
+  last_updated_on: 2023-06-05 20:58:27.000000000 Z
+- name: fake-useragent
+  description: Up to date simple useragent faker with real world database
+  package_url: https://pypi.org/project/fake-useragent
+  version: 1.1.3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/tooloca/Super-AGI/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: TransformerOptimus
+  last_updated_on: 2023-05-18 13:54:37.000000000 Z
+- name: feedparser
+  description: Universal feed parser
+  package_url: https://pypi.org/project/feedparser
+  version: 6.0.10
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19965/default_62b2ac36bb8fe8a96b159da37fa490cc7a170082.png
+  detection_source_url: https://github.com/tooloca/Super-AGI/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: abhijeet
+  last_updated_on: 2023-06-07 03:51:55.000000000 Z
+- name: filelock
+  description: A platform independent file lock
+  package_url: https://pypi.org/project/filelock
+  version: 3.12.0
+  license: Unlicense
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20204/default_645e4030c04804ccf56eaad54caf7b7a73a44c64.png
+  detection_source_url: https://github.com/tooloca/Super-AGI/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: TransformerOptimus
+  last_updated_on: 2023-05-18 13:54:37.000000000 Z
+- name: google-api-core
+  description: Google API client core library
+  package_url: https://pypi.org/project/google-api-core
+  version: 2.11.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20073/default_d7fc4eabe57370d13c2a8ad2f7f6bb876c96c66d.png
+  detection_source_url: https://github.com/tooloca/Super-AGI/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Maverick-F35
+  last_updated_on: 2023-07-13 12:14:39.000000000 Z
+- name: google-api-python-client
+  description: Google API Client Library for Python
+  package_url: https://pypi.org/project/google-api-python-client
+  version: 2.88.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19897/default_4343f8bba4f6051641ffca8b4fbe9b099402c84d.png
+  detection_source_url: https://github.com/tooloca/Super-AGI/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Rounak Bhatia
+  last_updated_on: 2023-10-25 07:33:38.000000000 Z
+- name: google-auth
+  description: Google Authentication Library
+  package_url: https://pypi.org/project/google-auth
+  version: 2.19.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19955/default_1965f66bb5a4d2eb7b31193d7be6d8a9041d02b9.png
+  detection_source_url: https://github.com/tooloca/Super-AGI/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Maverick-F35
+  last_updated_on: 2023-07-13 12:14:39.000000000 Z
+- name: google-auth-oauthlib
+  description: Google Authentication Library
+  package_url: https://pypi.org/project/google-auth-oauthlib
+  version: 1.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20240/default_8a23a3884b3073b5e1695e2320e46529e60882b3.png
+  detection_source_url: https://github.com/tooloca/Super-AGI/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Maverick-F35
+  last_updated_on: 2023-07-13 12:14:39.000000000 Z
+- name: greenlet
+  description: Lightweight in-process concurrent programming
+  package_url: https://pypi.org/project/greenlet
+  version: 2.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20137/default_e3ea003987b13e5c9b8c9000c748b25a9c0d9ecd.png
+  detection_source_url: https://github.com/tooloca/Super-AGI/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Fluder-Paradyne
+  last_updated_on: 2023-05-22 06:49:36.000000000 Z
+- name: h11
+  description: A pure-Python
+  package_url: https://pypi.org/project/h11
+  version: 0.14.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/tooloca/Super-AGI/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: TransformerOptimus
+  last_updated_on: 2023-05-18 13:54:37.000000000 Z
+- name: halo
+  description: Beautiful terminal spinners in Python
+  package_url: https://pypi.org/project/halo
+  version: 0.0.31
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20629/default_78ec26600ac4986ddf0c6f11d3354b2096358a48.png
+  detection_source_url: https://github.com/tooloca/Super-AGI/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Autocop-Agent
+  last_updated_on: 2023-05-23 05:51:47.000000000 Z
+- name: html2text
+  description: Turn HTML into equivalent Markdown-structured text
+  package_url: https://pypi.org/project/html2text
+  version: 2020.1.16
+  license: GPL-3.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19982/default_ccb381b493daf0d966e015380e1894fdbc637ad3.png
+  detection_source_url: https://github.com/tooloca/Super-AGI/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: TransformerOptimus
+  last_updated_on: 2023-07-07 10:36:43.000000000 Z
+- name: httptools
+  description: A collection of framework independent HTTP protocol utils
+  package_url: https://pypi.org/project/httptools
+  version: 0.5.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/tooloca/Super-AGI/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: luciferlinx
+  last_updated_on: 2023-06-23 10:06:53.000000000 Z
+- name: httpx
+  description: The next generation HTTP client
+  package_url: https://pypi.org/project/httpx
+  version: 0.24.1
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20315/default_5f4e928dbcb1c4db4050881fc2e0229785fc931c.png
+  detection_source_url: https://github.com/tooloca/Super-AGI/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: luciferlinx
+  last_updated_on: 2023-06-23 10:06:53.000000000 Z
+- name: importlib-metadata
+  description: Read metadata from Python packages
+  package_url: https://pypi.org/project/importlib-metadata
+  version: 6.6.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20000/default_7c419d5d5f0cfad7886b95266eae7ba305cedacf.png
+  detection_source_url: https://github.com/tooloca/Super-AGI/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: TransformerOptimus
+  last_updated_on: 2023-05-18 13:54:37.000000000 Z
+- name: itsdangerous
+  description: Various helpers to pass data to untrusted environments and back
+  package_url: https://pypi.org/project/itsdangerous
+  version: 2.1.2
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19989/default_b1f1fc9c4c59a78443018e01395203ba8c61dcde.png
+  detection_source_url: https://github.com/tooloca/Super-AGI/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Lucifer Linx
+  last_updated_on: 2023-05-27 13:15:41.000000000 Z
+- name: jira
+  description: Python library for interacting with JIRA via REST APIs
+  package_url: https://pypi.org/project/jira
+  version: 3.5.0
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20299/default_00525766b5d1b7a358cc1912c2d8907cee4c2347.png
+  detection_source_url: https://github.com/tooloca/Super-AGI/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: TransformerOptimus
+  last_updated_on: 2023-05-28 09:46:21.000000000 Z
+- name: jmespath
+  description: JSON Matching Expressions
+  package_url: https://pypi.org/project/jmespath
+  version: 1.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19993/default_1ae269f6aa26d7008f18ed620309f6ae89bbfa12.png
+  detection_source_url: https://github.com/tooloca/Super-AGI/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: abhijeet
+  last_updated_on: 2023-06-05 20:58:27.000000000 Z
+- name: joblib
+  description: 'Lightweight pipelining: using Python functions as pipeline jobs'
+  package_url: https://pypi.org/project/joblib
+  version: 1.2.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20033/default_5a21cf44b42c3ef13f57dcd42ae753240ea7e808.png
+  detection_source_url: https://github.com/tooloca/Super-AGI/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: TransformerOptimus
+  last_updated_on: 2023-05-18 13:54:37.000000000 Z
+- name: jsonmerge
+  description: Merge a series of JSON documents
+  package_url: https://pypi.org/project/jsonmerge
+  version: 1.9.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/tooloca/Super-AGI/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: abhijeet
+  last_updated_on: 2023-06-05 20:58:27.000000000 Z
+- name: jsonschema
+  description: An implementation of JSON Schema validation for Python
+  package_url: https://pypi.org/project/jsonschema
+  version: 4.17.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19854/default_3fbfa1d88b4408e903227ac391490e8efb8dea58.png
+  detection_source_url: https://github.com/tooloca/Super-AGI/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: rakesh-krishna-a-s
+  last_updated_on: 2023-06-22 05:18:35.000000000 Z
+- name: kombu
+  description: Messaging library for Python
+  package_url: https://pypi.org/project/kombu
+  version: 5.2.4
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20085/default_36085c16346155862c5c1303e8a0a70416453533.png
+  detection_source_url: https://github.com/tooloca/Super-AGI/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Lucifer Linx
+  last_updated_on: 2023-05-27 13:15:41.000000000 Z
+- name: loguru
+  description: Python logging made
+  package_url: https://pypi.org/project/loguru
+  version: 0.7.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20043/default_15ea2ed8281eccea374610791971ca44800f16ec.png
+  detection_source_url: https://github.com/tooloca/Super-AGI/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: TransformerOptimus
+  last_updated_on: 2023-05-18 13:54:37.000000000 Z
+- name: lxml
+  description: Powerful and Pythonic XML processing library combining libxml2/libxslt
+    with the ElementTree API
+  package_url: https://pypi.org/project/lxml
+  version: 4.9.2
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19835/default_85689b353a3a9409328e253ea28d859d29151e0c.png
+  detection_source_url: https://github.com/tooloca/Super-AGI/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: TransformerOptimus
+  last_updated_on: 2023-05-18 13:54:37.000000000 Z
+- name: marshmallow
+  description: A lightweight library for converting complex datatypes to and from
+    native Python datatypes
+  package_url: https://pypi.org/project/marshmallow
+  version: 3.19.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19893/default_f716e4bc541a9eb6e3f5b7a20d7c35355075b0b4.png
+  detection_source_url: https://github.com/tooloca/Super-AGI/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: rakesh-krishna-a-s
+  last_updated_on: 2023-06-30 10:45:12.000000000 Z
+- name: marshmallow-enum
+  description: Enum field for Marshmallow
+  package_url: https://pypi.org/project/marshmallow-enum
+  version: 1.5.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20691/default_e101f630b218074f7e0ffedc3ee839844bbf811d.png
+  detection_source_url: https://github.com/tooloca/Super-AGI/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: rakesh-krishna-a-s
+  last_updated_on: 2023-06-30 10:45:12.000000000 Z
+- name: multidict
+  description: Multidict implementation
+  package_url: https://pypi.org/project/multidict
+  version: 6.0.4
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20160/default_8822b1755ae0c97a622ebcb1aa9cafa328004f81.png
+  detection_source_url: https://github.com/tooloca/Super-AGI/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: TransformerOptimus
+  last_updated_on: 2023-05-28 09:46:21.000000000 Z
+- name: newspaper3k
+  description: Simplified python article discovery &amp; extraction
+  package_url: https://pypi.org/project/newspaper3k
+  version: 0.2.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/tooloca/Super-AGI/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: TransformerOptimus
+  last_updated_on: 2023-05-18 13:54:37.000000000 Z
+- name: nltk
+  description: Natural Language Toolkit
+  package_url: https://pypi.org/project/nltk
+  version: 3.8.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20023/default_b0d1a54f127d7017fce41c15f5e85568fb7019ed.png
+  detection_source_url: https://github.com/tooloca/Super-AGI/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: TransformerOptimus
+  last_updated_on: 2023-05-18 13:54:37.000000000 Z
+- name: numexpr
+  description: Fast numerical expression evaluator for NumPy
+  package_url: https://pypi.org/project/numexpr
+  version: 2.8.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20289/default_bae4ec34e549383af798a405820088989f617ff0.png
+  detection_source_url: https://github.com/tooloca/Super-AGI/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: TransformerOptimus
+  last_updated_on: 2023-05-18 13:54:37.000000000 Z
+- name: oauth2client
+  description: OAuth 2.0 client library
+  package_url: https://pypi.org/project/oauth2client
+  version: 4.1.3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19956/default_1965f66bb5a4d2eb7b31193d7be6d8a9041d02b9.png
+  detection_source_url: https://github.com/tooloca/Super-AGI/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: rakesh-krishna-a-s
+  last_updated_on: 2023-06-29 08:42:07.000000000 Z
+- name: oauthlib
+  description: A generic
+  package_url: https://pypi.org/project/oauthlib
+  version: 3.2.2
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20048/default_d9e0956c82c17d568b62f3b0d5e2080c1e501e59.png
+  detection_source_url: https://github.com/tooloca/Super-AGI/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: luciferlinx
+  last_updated_on: 2023-06-23 10:06:53.000000000 Z
+- name: openai
+  description: The official Python library for the openai API
+  package_url: https://pypi.org/project/openai
+  version: 0.27.7
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/tooloca/Super-AGI/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: TransformerOptimus
+  last_updated_on: 2023-05-28 09:46:21.000000000 Z
+- name: packaging
+  description: Core utilities for Python packages
+  package_url: https://pypi.org/project/packaging
+  version: '23.1'
+  license: BSD-3-Clause,Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19894/default_f716e4bc541a9eb6e3f5b7a20d7c35355075b0b4.png
+  detection_source_url: https://github.com/tooloca/Super-AGI/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: TransformerOptimus
+  last_updated_on: 2023-05-18 13:54:37.000000000 Z
+- name: parse
+  description: Parse
+  package_url: https://pypi.org/project/parse
+  version: 1.19.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20094/default_3141eabecdd8efa55de73a33c43f2ac0d5bbf954.png
+  detection_source_url: https://github.com/tooloca/Super-AGI/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: abhijeet
+  last_updated_on: 2023-06-07 03:51:55.000000000 Z
+- name: pre-commit
+  description: A framework for managing and maintaining multi-language pre-commit
+    hooks
+  package_url: https://pypi.org/project/pre-commit
+  version: 3.3.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20560/default_d975dcf643a054134f39226d51d4a5fea9320efe.png
+  detection_source_url: https://github.com/tooloca/Super-AGI/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: I’m
+  last_updated_on: 2023-06-21 14:05:33.000000000 Z
+- name: prompt-toolkit
+  description: Library for building powerful interactive command lines in Python
+  package_url: https://pypi.org/project/prompt-toolkit
+  version: 3.0.38
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20821/default_807bb6c1af3ee7076c92bf3b4deb3e13b204d369.png
+  detection_source_url: https://github.com/tooloca/Super-AGI/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: TransformerOptimus
+  last_updated_on: 2023-05-28 09:46:21.000000000 Z
+- name: psycopg2
+  description: Psycopg2 - Python-PostgreSQL Database Adapter
+  package_url: https://pypi.org/project/psycopg2
+  version: 2.9.6
+  license: BSD-3-Clause-Attribution
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20416/default_64aa60b33468d1d28611966765867676f6303b64.png
+  detection_source_url: https://github.com/tooloca/Super-AGI/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Arkajit-Datta
+  last_updated_on: 2023-05-29 19:17:30.000000000 Z
+- name: pycparser
+  description: C parser in Python
+  package_url: https://pypi.org/project/pycparser
+  version: '2.21'
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20072/default_d7fc4eabe57370d13c2a8ad2f7f6bb876c96c66d.png
+  detection_source_url: https://github.com/tooloca/Super-AGI/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: abhijeet
+  last_updated_on: 2023-06-07 03:51:55.000000000 Z
+- name: pyquery
+  description: A jquery-like library for python
+  package_url: https://pypi.org/project/pyquery
+  version: 2.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20111/default_07c33e3fe9188a5efef46b09a8d6468a52dce7cb.png
+  detection_source_url: https://github.com/tooloca/Super-AGI/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: TransformerOptimus
+  last_updated_on: 2023-05-18 13:54:37.000000000 Z
+- name: pyrsistent
+  description: Persistent/Functional/Immutable data structures
+  package_url: https://pypi.org/project/pyrsistent
+  version: 0.19.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20112/default_07c33e3fe9188a5efef46b09a8d6468a52dce7cb.png
+  detection_source_url: https://github.com/tooloca/Super-AGI/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: TransformerOptimus
+  last_updated_on: 2023-05-28 09:46:21.000000000 Z
+- name: pytest-cov
+  description: Pytest plugin for measuring coverage
+  package_url: https://pypi.org/project/pytest-cov
+  version: 4.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19958/default_e91a78767854f0fa80aab2f13d1a25b15ca2d278.png
+  detection_source_url: https://github.com/tooloca/Super-AGI/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: I’m
+  last_updated_on: 2023-06-21 14:05:33.000000000 Z
+- name: pytest-mock
+  description: Thin-wrapper around the mock package for easier use with py.test
+  package_url: https://pypi.org/project/pytest-mock
+  version: 3.11.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20244/default_fc0d35561378e21d3174def06634c96515818661.png
+  detection_source_url: https://github.com/tooloca/Super-AGI/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: I’m
+  last_updated_on: 2023-06-21 14:05:33.000000000 Z
+- name: python-dateutil
+  description: Extensions to the standard Python datetime module
+  package_url: https://pypi.org/project/python-dateutil
+  version: 2.8.2
+  license: NRL
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19833/default_58dbe7b4d7ec447b62773209af0f9a31bbabf5bd.png
+  detection_source_url: https://github.com/tooloca/Super-AGI/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Rounak Bhatia
+  last_updated_on: 2023-10-25 07:33:38.000000000 Z
+- name: python-dotenv
+  description: Add .env support to your django/flask apps in development and deployments
+  package_url: https://pypi.org/project/python-dotenv
+  version: 1.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20095/default_3141eabecdd8efa55de73a33c43f2ac0d5bbf954.png
+  detection_source_url: https://github.com/tooloca/Super-AGI/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Rounak Bhatia
+  last_updated_on: 2023-10-25 07:33:38.000000000 Z
+- name: pytz
+  description: World timezone definitions, modern and historical
+  package_url: https://pypi.org/project/pytz
+  version: '2023.3'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19841/default_bb711fa267b2329ed689711a5adb7d9e74610b20.png
+  detection_source_url: https://github.com/tooloca/Super-AGI/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: TransformerOptimus
+  last_updated_on: 2023-05-28 09:46:21.000000000 Z
+- name: regex
+  description: Alternative regular expression module, to replace re
+  package_url: https://pypi.org/project/regex
+  version: 2023.5.5
+  license: Python-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19923/default_c8be5290cb8d8a8b578535a2c6475d1057ff4ea4.png
+  detection_source_url: https://github.com/tooloca/Super-AGI/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: TransformerOptimus
+  last_updated_on: 2023-05-18 13:54:37.000000000 Z
+- name: requests-file
+  description: File transport adapter for Requests
+  package_url: https://pypi.org/project/requests-file
+  version: 1.5.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20788/default_dcde61c1b3c059a49681f0b775a8b73e0d122383.png
+  detection_source_url: https://github.com/tooloca/Super-AGI/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: TransformerOptimus
+  last_updated_on: 2023-05-28 09:46:21.000000000 Z
+- name: requests-html
+  description: HTML Parsing for Humans
+  package_url: https://pypi.org/project/requests-html
+  version: 0.10.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20405/default_916d14a5fb4a87a7b3ed929aaaa2452cc548933d.png
+  detection_source_url: https://github.com/tooloca/Super-AGI/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: TransformerOptimus
+  last_updated_on: 2023-07-07 10:36:43.000000000 Z
+- name: requests-oauthlib
+  description: OAuthlib authentication support for Requests
+  package_url: https://pypi.org/project/requests-oauthlib
+  version: 1.3.1
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19926/default_bb29140b72c0fb9789e567bba0ef0ffadeaef5d4.png
+  detection_source_url: https://github.com/tooloca/Super-AGI/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: luciferlinx
+  last_updated_on: 2023-06-23 10:06:53.000000000 Z
+- name: requests-toolbelt
+  description: A utility belt for advanced users of python-requests
+  package_url: https://pypi.org/project/requests-toolbelt
+  version: 1.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20128/default_3146a05cf4dd77d8b50cff25709373c081ac5053.png
+  detection_source_url: https://github.com/tooloca/Super-AGI/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: TransformerOptimus
+  last_updated_on: 2023-05-28 09:46:21.000000000 Z
+- name: s3transfer
+  description: An Amazon S3 Transfer Manager
+  package_url: https://pypi.org/project/s3transfer
+  version: 0.6.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20042/default_15ea2ed8281eccea374610791971ca44800f16ec.png
+  detection_source_url: https://github.com/tooloca/Super-AGI/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: rakesh-krishna-a-s
+  last_updated_on: 2023-06-27 07:42:56.000000000 Z
+- name: six
+  description: Python 2 and 3 compatibility utilities
+  package_url: https://pypi.org/project/six
+  version: 1.16.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19827/default_74a61b43bdb9fc0cba2978316b9976f43545029b.png
+  detection_source_url: https://github.com/tooloca/Super-AGI/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: TransformerOptimus
+  last_updated_on: 2023-05-18 13:54:37.000000000 Z
+- name: soupsieve
+  description: A modern CSS selector implementation for Beautiful Soup
+  package_url: https://pypi.org/project/soupsieve
+  version: 2.4.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20367/default_f96848c380cbdcec99ab678e027c29229da52205.png
+  detection_source_url: https://github.com/tooloca/Super-AGI/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: TransformerOptimus
+  last_updated_on: 2023-05-18 13:54:37.000000000 Z
+- name: tenacity
+  description: Retry code until it succeeds
+  package_url: https://pypi.org/project/tenacity
+  version: 8.2.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20027/default_fd02050783f95269bfcc5c4d11f1c75dd423cd1d.png
+  detection_source_url: https://github.com/tooloca/Super-AGI/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: TransformerOptimus
+  last_updated_on: 2023-05-18 13:54:37.000000000 Z
+- name: termcolor
+  description: ANSII Color formatting for output in terminal
+  package_url: https://pypi.org/project/termcolor
+  version: 2.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20014/default_9e735547ab71630330a9e635a78e5cedca9ba560.png
+  detection_source_url: https://github.com/tooloca/Super-AGI/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Lucifer Linx
+  last_updated_on: 2023-05-27 13:15:41.000000000 Z
+- name: tldextract
+  description: Accurately separate the TLD from the registered domain and subdomains
+    of a URL, using the Public Suffix List
+  package_url: https://pypi.org/project/tldextract
+  version: 3.4.4
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20144/default_6c1e0b996cf8d609b9385da5f7856330bcaff137.png
+  detection_source_url: https://github.com/tooloca/Super-AGI/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: TransformerOptimus
+  last_updated_on: 2023-05-28 09:46:21.000000000 Z
+- name: tweepy
+  description: Twitter library for python
+  package_url: https://pypi.org/project/tweepy
+  version: 4.14.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20397/default_49831882be649a3ae5c46617c462b503ba8fccbc.png
+  detection_source_url: https://github.com/tooloca/Super-AGI/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: TransformerOptimus
+  last_updated_on: 2023-05-18 13:54:37.000000000 Z
+- name: typing-extensions
+  description: Backported and Experimental Type Hints for Python 3.5+
+  package_url: https://pypi.org/project/typing-extensions
+  version: 4.5.0
+  license: Python-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19875/default_2270bfab784e3d2c2d999d26b11ee478a9dad238.png
+  detection_source_url: https://github.com/tooloca/Super-AGI/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Abhijeet
+  last_updated_on: 2023-09-07 07:43:15.000000000 Z
+- name: typing-inspect
+  description: Runtime inspection utilities for typing module
+  package_url: https://pypi.org/project/typing-inspect
+  version: 0.8.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/tooloca/Super-AGI/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Abhijeet
+  last_updated_on: 2023-09-07 07:43:15.000000000 Z
+- name: ujson
+  description: Ultra fast JSON encoder and decoder for Python
+  package_url: https://pypi.org/project/ujson
+  version: 5.7.0
+  license: DSDP
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20357/default_1e2908ef2614eb1bb39298a5fc937d8c068f3a2c.png
+  detection_source_url: https://github.com/tooloca/Super-AGI/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: abhijeet
+  last_updated_on: 2023-06-05 20:58:27.000000000 Z
+- name: uvicorn
+  description: The lightning-fast ASGI server
+  package_url: https://pypi.org/project/uvicorn
+  version: 0.22.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20431/default_f824837db22536768ec317b67275fa384fad7d47.png
+  detection_source_url: https://github.com/tooloca/Super-AGI/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: TransformerOptimus
+  last_updated_on: 2023-05-18 13:54:37.000000000 Z
+- name: vine
+  description: Promises, promises, promises
+  package_url: https://pypi.org/project/vine
+  version: 5.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/tooloca/Super-AGI/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Lucifer Linx
+  last_updated_on: 2023-05-27 13:15:41.000000000 Z
+- name: w3lib
+  description: Library of web-related functions
+  package_url: https://pypi.org/project/w3lib
+  version: 2.1.1
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20373/default_e6c4d6b6295b7d6934a5e16b2a16a7aa07991d65.png
+  detection_source_url: https://github.com/tooloca/Super-AGI/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: TransformerOptimus
+  last_updated_on: 2023-05-18 13:54:37.000000000 Z
+- name: wcwidth
+  description: Measures number of Terminal column cells of wide-character codes
+  package_url: https://pypi.org/project/wcwidth
+  version: 0.2.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20026/default_77bb3e5ea95c1543fd636eba30e7257b80fbd4f6.png
+  detection_source_url: https://github.com/tooloca/Super-AGI/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Lucifer Linx
+  last_updated_on: 2023-05-27 13:15:41.000000000 Z
+- name: websockets
+  description: An implementation of the WebSocket Protocol
+  package_url: https://pypi.org/project/websockets
+  version: '10.4'
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19951/default_fbe690a687f1af7dc36ac3d526708be3294c4cc9.png
+  detection_source_url: https://github.com/tooloca/Super-AGI/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: TransformerOptimus
+  last_updated_on: 2023-05-19 08:12:24.000000000 Z
+- name: yarl
+  description: Yet another URL library
+  package_url: https://pypi.org/project/yarl
+  version: 1.9.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20083/default_d8789f2f1b5b4e9994bef68371453a20460b4d6e.png
+  detection_source_url: https://github.com/tooloca/Super-AGI/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: TransformerOptimus
+  last_updated_on: 2023-05-18 13:54:37.000000000 Z
+- name: zipp
+  description: Backport of pathlib-compatible object wrapper for zip files
+  package_url: https://pypi.org/project/zipp
+  version: 3.15.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20247/default_47b8ee8db82e43d9eef35923435bd8cc855f3a1b.png
+  detection_source_url: https://github.com/tooloca/Super-AGI/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: TransformerOptimus
+  last_updated_on: 2023-05-18 13:54:37.000000000 Z
+- name: eslint-config-next
+  description: ESLint configuration used by Next.js
+  package_url: https://www.npmjs.com/eslint-config-next
+  version: 13.4.2
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/npm/image.png
+  detection_source_url: https://github.com/tooloca/Super-AGI/blob/main/gui/package-lock.json
+  detection_source: gui/package.json
+  last_updated_by: nihirr
+  last_updated_on: 2023-05-30 13:05:29.000000000 Z
+- name: js-cookie
+  description: A simple, lightweight JavaScript API for handling cookies
+  package_url: https://www.npmjs.com/js-cookie
+  version: 3.0.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16441/default_89ba91277e3434b03295bb11d22736632df1d04f.png
+  detection_source_url: https://github.com/tooloca/Super-AGI/blob/main/gui/package-lock.json
+  detection_source: gui/package.json
+  last_updated_by: namansleeps
+  last_updated_on: 2023-10-03 10:09:08.000000000 Z
+- name: jszip
+  description: Create
+  package_url: https://www.npmjs.com/jszip
+  version: 3.10.1
+  license: MIT,GPL-3.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16628/default_4b738bf1758d38dddd276589bbea47fca5a990df.png
+  detection_source_url: https://github.com/tooloca/Super-AGI/blob/main/gui/package-lock.json
+  detection_source: gui/package.json
+  last_updated_by: NishantBorthakur
+  last_updated_on: 2023-06-29 08:57:02.000000000 Z
+- name: mitt
+  description: Tiny 200b functional Event Emitter / pubsub
+  package_url: https://www.npmjs.com/mitt
+  version: 3.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18719/default_88ba18730de3c1cd8c358a23343f72c83971e808.png
+  detection_source_url: https://github.com/tooloca/Super-AGI/blob/main/gui/package-lock.json
+  detection_source: gui/package.json
+  last_updated_by: Nishant Borthakur
+  last_updated_on: 2023-05-27 13:14:02.000000000 Z
+- name: moment
+  description: Parse, validate, manipulate, and display dates
+  package_url: https://www.npmjs.com/moment
+  version: 2.29.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15847/default_4479dbac220be99e50e724b2df6cf415241d71fd.png
+  detection_source_url: https://github.com/tooloca/Super-AGI/blob/main/gui/package-lock.json
+  detection_source: gui/package.json
+  last_updated_by: NishantBorthakur
+  last_updated_on: 2023-06-30 13:14:00.000000000 Z
+- name: moment-timezone
+  description: Parse and display moments in any timezone
+  package_url: https://www.npmjs.com/moment-timezone
+  version: 0.5.43
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16298/default_8b65a873fd3277d73483d6846fa38192391abf23.png
+  detection_source_url: https://github.com/tooloca/Super-AGI/blob/main/gui/package-lock.json
+  detection_source: gui/package.json
+  last_updated_by: Fluder-Paradyne
+  last_updated_on: 2023-09-27 13:06:19.000000000 Z
+- name: react-datetime
+  description: A lightweight but complete datetime picker React.js component
+  package_url: https://www.npmjs.com/react-datetime
+  version: 3.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18698/default_fc5b023c2170b00beeade822bdceeaf129047406.png
+  detection_source_url: https://github.com/tooloca/Super-AGI/blob/main/gui/package-lock.json
+  detection_source: gui/package.json
+  last_updated_by: Fluder-Paradyne
+  last_updated_on: 2023-09-27 13:06:19.000000000 Z
+- name: react-dom
+  description: React package for working with the DOM
+  package_url: https://www.npmjs.com/react-dom
+  version: 18.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15808/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/tooloca/Super-AGI/blob/main/gui/package-lock.json
+  detection_source: gui/package.json
+  last_updated_by: Fluder-Paradyne
+  last_updated_on: 2023-09-27 13:06:19.000000000 Z
+- name: react-draggable
+  description: React draggable component
+  package_url: https://www.npmjs.com/react-draggable
+  version: 4.4.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17422/default_90854c53afd40e0b32cb5e4d62d6bbc2214e0f62.png
+  detection_source_url: https://github.com/tooloca/Super-AGI/blob/main/gui/package-lock.json
+  detection_source: gui/package.json
+  last_updated_by: Fluder-Paradyne
+  last_updated_on: 2023-09-27 13:06:19.000000000 Z
+- name: react-markdown
+  description: Renders Markdown as React components
+  package_url: https://www.npmjs.com/react-markdown
+  version: 8.0.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17056/default_d17bbf7e4f3b102e29ff09c01b8165e7ba600319.png
+  detection_source_url: https://github.com/tooloca/Super-AGI/blob/main/gui/package-lock.json
+  detection_source: gui/package.json
+  last_updated_by: Fluder-Paradyne
+  last_updated_on: 2023-09-27 13:06:19.000000000 Z
+- name: react-toastify
+  description: React notification made easy
+  package_url: https://www.npmjs.com/react-toastify
+  version: 9.1.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18461/default_5ff724c0ff89bb42698aa80ef3403008cb0d8f72.png
+  detection_source_url: https://github.com/tooloca/Super-AGI/blob/main/gui/package-lock.json
+  detection_source: gui/package.json
+  last_updated_by: Fluder-Paradyne
+  last_updated_on: 2023-09-27 13:06:19.000000000 Z
